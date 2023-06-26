@@ -1,0 +1,26 @@
+<div class="card">
+    <h2 class="card-title">
+        Asistente LUIS <span> <fa-icon id="compass" [icon]="Compass"></fa-icon> </span>
+    </h2>
+    <div class="card-body">
+        <button mat-raised-button id="btn-vuelos">
+            Vuelos <span> <fa-icon id="icon" [icon]="Plane"></fa-icon> </span>
+        </button>
+    </div>
+    <div class="card-body">
+        <button mat-raised-button id="btn-lugares">
+            Lugares <span> <fa-icon id="icon" [icon]="Lugar"></fa-icon> </span>
+        </button>
+    </div>
+
+    <div class="card-body">
+        <button mat-raised-button id="btn-calendario" (click)="goToPage()">
+            Calendario <span> <fa-icon id="icon" [icon]="Calendar"></fa-icon> </span>
+        </button>
+    </div>
+    <div class="card-body">
+        <button mat-raised-button id="btn-voice" (click)="Start()">
+            Voice <span> <fa-icon id="icon" [icon]="Lugar"></fa-icon> </span>
+        </button>
+    </div>
+</div>

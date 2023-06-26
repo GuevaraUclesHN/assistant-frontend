@@ -1,0 +1,20 @@
+<div>
+    <button (click)="startVoiceRecognition()">Iniciar reconocimiento de voz</button>
+    <button (click)="stopVoiceRecognition()">Detener reconocimiento de voz</button>
+  </div>
+  
+  <div>
+    <p>Texto transrito: {{ service.text }}</p>
+  </div>
+
+  <div *ngFor="let lugar of lugares">
+    <p>{{ lugar.name }}</p>
+    <!-- Mostrar otras propiedades del restaurante -->
+  </div>
+  
+  <div *ngFor="let vuelo of vuelos">
+    <p>Vuelo: {{ vuelo.flightNumber }}</p>
+    
+    <p>Desde:{{ vuelo.departureAirport }} hasta: {{ vuelo.arrivalAirport }}</p>
+    <!-- Mostrar otras propiedades del restaurante -->
+  </div>

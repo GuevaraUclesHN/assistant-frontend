@@ -1,0 +1,25 @@
+<div class="card">
+    <div class="card-body">
+        <button mat-raised-button id="btn-agendar" (click)="enableForm()">
+            Agendar Evento
+        </button>
+    </div>
+
+    <div class="card-body" *ngIf="enabled == true">
+        <div class="form-box">
+            <h2 class="card-title">
+                Agregar Contacto
+            </h2>
+
+            <form [formGroup]="formAgendar" >
+                <div class="form-group">
+                    Summary: <input formControlName="summary" type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    Description: <input formControlName="description" type="text" class="form-control">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

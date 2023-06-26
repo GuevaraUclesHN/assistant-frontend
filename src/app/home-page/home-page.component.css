@@ -1,0 +1,54 @@
+h2 {
+    margin: 30px;
+    margin-bottom: 120px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2cm;
+
+    text-align: center;
+
+    color: #F2F2F2;
+}
+
+#compass {
+    color: #49D3F2;
+}
+
+#icon {
+    color: #131159;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px;
+}
+
+#btn-vuelos {
+    background-color: #0DD98E !important;
+
+    width: 20%;
+    height: 55px !important;
+
+    font-size: 24px;
+}
+
+#btn-lugares {
+    background-color: #E09900 !important;
+
+    width: 20%;
+    height: 55px !important;
+
+    font-size: 24px;
+}
+
+#btn-calendario {
+    background-color: #B200E0 !important;
+
+    width: 20%;
+    height: 55px !important;
+
+    font-size: 24px;
+}
